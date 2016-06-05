@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"down": "materialcraft:blocks/woodcraftbench_bottom",
+		"up": "materialcraft:blocks/woodcraftbench_top",
+		"north": "materialcraft:blocks/woodcraftbench_left",
+		"south": "materialcraft:blocks/woodcraftbench_right",
+		"east": "materialcraft:blocks/woodcraftbench_back",
+		"west": "materialcraft:blocks/woodcraftbench_front",
+		"particle": "materialcraft:blocks/woodcraftbench_top"
+	}
+}

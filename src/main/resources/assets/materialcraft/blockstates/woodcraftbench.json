@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"direction=north": {"model": "materialcraft:woodcraftbench_north"},
+		"direction=south": {"model": "materialcraft:woodcraftbench_south"},
+		"direction=east": {"model": "materialcraft:woodcraftbench_east"},
+		"direction=west": {"model": "materialcraft:woodcraftbench_west"}
+	}
+}

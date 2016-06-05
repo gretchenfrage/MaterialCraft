@@ -1,0 +1,16 @@
+[
+{
+  "modid": "materialcraft",
+  "name": "MaterialCraft",
+  "description": "More materials, harder mechanics.",
+  "version": "1.0.0",
+  "mcversion": "1.9.4",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Phoenix"],
+  "credits": "Phoenix",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
