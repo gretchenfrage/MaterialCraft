@@ -16,11 +16,11 @@ public class BlockManager {
 	public static BasicBlock woodcraftBench;
 	
 	public static void preInit(FMLPreInitializationEvent event) {
-		//woodcraftBench = new BasicBlock("woodcraftbench", Material.WOOD);
 		woodcraftBench = new WoodcraftBench();
-		//woodcraftBench.toBlock().setCreativeTab(CreativeTabs.MISC);
 		
 		registerBlock(woodcraftBench);
+		
+		GameRegistry.registerTileEntity(WoodcraftBenchEntity.class, MaterialCraft.MODID + "_woodcraft_bench_tile_entity");
 	}
 	
 	private static void registerBlock(NameableBlock block) {
