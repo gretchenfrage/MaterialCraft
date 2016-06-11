@@ -13,11 +13,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class BlockManager {
 
-	public static DirectionalBlock woodcraftBench;
+	public static BasicBlock woodcraftBench;
 	
 	public static void preInit(FMLPreInitializationEvent event) {
-		woodcraftBench = new DirectionalBlock("woodcraftbench", Material.WOOD);
-		woodcraftBench.setCreativeTab(CreativeTabs.MISC);
+		//woodcraftBench = new BasicBlock("woodcraftbench", Material.WOOD);
+		woodcraftBench = new WoodcraftBench();
+		//woodcraftBench.toBlock().setCreativeTab(CreativeTabs.MISC);
 		
 		registerBlock(woodcraftBench);
 	}

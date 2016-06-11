@@ -1,5 +1,5 @@
 {
-	"parent": "materialcraft:block/woodcraftbench",
+	"parent": "materialcraft:block/woodcraftbench_north",
 	"display": {
 		"thirdperson": {
 			"rotation": [10, -45, 170],
